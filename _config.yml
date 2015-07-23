@@ -1,0 +1,3 @@
+name: BettyRose.co.uk
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title

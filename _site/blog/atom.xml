@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Cold Brew Blog</title>
+	<link href="http://cold-brew.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://cold-brew.github.io/blog"/>
+	<updated>2015-07-16T14:59:23+01:00</updated>
+	<id>http://cold-brew.github.io/blog</id>
+	<author>
+		<name>Cold Brew</name>
+		<email>sam@cold-brew.io</email>
+	</author>
+
+	
+		<entry>
+			<title>Cold Brew in Progress</title>
+			<link href="http://cold-brew.github.io/blog/2015/07/16/cold-brew-in-progress"/>
+			<updated>2015-07-16T00:00:00+01:00</updated>
+			<id>http://cold-brew.github.io//blog/2015/07/16/cold-brew-in-progress</id>
+			<content type="html">&lt;p&gt;The site build is in progress using Jekyll!&lt;/p&gt;
+</content>
+		</entry>
+	
+
+</feed>

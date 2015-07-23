@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+            
+            <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=no">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <!-- Compiled and minified CSS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+            
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+            
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+            
+		</head>
+		<body class="white">
+            <nav class="top-nav">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo center"><img class="logo-image" src="/assets/brew.png"></a>
+<!--
+                    <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/cv">CV</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>
+                    <ul id="mobile" class="side-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/cv">CV</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>
+-->
+                </div>
+            </nav>
+			<div>
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+			</footer>
+            
+            <!-- Compiled and minified JavaScript -->
+            <script async src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+            
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $(".button-collapse").sideNav();
+                });
+            </script>
+		</body>
+	</html>
