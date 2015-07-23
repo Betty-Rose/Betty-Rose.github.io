@@ -1,12 +1,6 @@
-body {
-    
-}
-
-.row-padding {
-    margin-top: 40px;
-    height: 100%;
-}
-
-.header-image {
-    width: 400px;
+.viewport-1
+{
+  background-size: cover;
+  background-image: url('https://Betty-Rose.github.io/assets/Tea.jpg');
+  height: 100vh;
 }
